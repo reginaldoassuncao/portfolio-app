@@ -112,7 +112,7 @@ const Header = () => {
               handleNavClick('#home');
             }}
           >
-            Seu Nome
+            Reginaldo Assunção
           </a>
 
           {/* Desktop Navigation */}

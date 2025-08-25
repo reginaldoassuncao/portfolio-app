@@ -130,7 +130,7 @@ const Hero = () => {
             </p>
             
             <h1 className={styles.name}>
-              Seu Nome
+              Reginaldo Assunção
             </h1>
             
             <h2 className={styles.title}>
