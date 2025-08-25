@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Read(/C:\\Users\\regia\\Pictures\\Screenshots/**)",
+      "Read(/C:\\Users\\regia\\Downloads/**)"
     ],
     "deny": [],
     "ask": []

@@ -9,6 +9,13 @@
   padding-right: var(--spacing-md);
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: var(--container-sm);

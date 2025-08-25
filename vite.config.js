@@ -21,13 +21,12 @@ export default defineConfig({
       }
     },
     
-    // Minify for production
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true, // Remove console.logs in production
-        drop_debugger: true
-      }
+    // Minify for production (usando esbuild que já está incluído)
+    minify: 'esbuild',
+    
+    // Configurações de minificação
+    esbuild: {
+      drop: ['console', 'debugger'] // Remove console.logs e debuggers em produção
     }
   },
   

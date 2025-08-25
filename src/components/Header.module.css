@@ -12,6 +12,14 @@
   transition: all var(--transition-normal);
 }
 
+/* Garantir que o header seja sempre visível */
+@media (max-width: 768px) {
+  .header {
+    /* Garantir que não seja cortado por notches ou safe areas */
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
