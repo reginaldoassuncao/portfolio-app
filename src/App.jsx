@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 import './App.css';
 
 function App() {
@@ -15,13 +16,8 @@ function App() {
         {/* About Section */}
         <About />
 
-        {/* Habilidades Section */}
-        <section id="habilidades" className="section">
-          <div className="container">
-            <h2>Habilidades</h2>
-            <p>Esta seção será desenvolvida na FASE 4 do projeto.</p>
-          </div>
-        </section>
+        {/* Skills Section */}
+        <Skills />
 
         {/* Projetos Section */}
         <section id="projetos" className="section">
