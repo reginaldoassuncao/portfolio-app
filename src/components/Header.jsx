@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ThemeToggle from './ThemeToggle';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -135,6 +136,9 @@ const Header = () => {
               ))}
             </ul>
           </nav>
+
+          {/* Theme Toggle */}
+          <ThemeToggle />
 
           {/* Mobile Menu Toggle */}
           <button

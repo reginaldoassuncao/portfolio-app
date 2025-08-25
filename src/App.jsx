@@ -2,6 +2,9 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -19,29 +22,14 @@ function App() {
         {/* Skills Section */}
         <Skills />
 
-        {/* Projetos Section */}
-        <section id="projetos" className="section">
-          <div className="container">
-            <h2>Projetos</h2>
-            <p>Esta seção será desenvolvida na FASE 5 e 6 do projeto.</p>
-          </div>
-        </section>
+        {/* Projects Section */}
+        <Projects />
 
-        {/* Experiência Section */}
-        <section id="experiencia" className="section">
-          <div className="container">
-            <h2>Experiência</h2>
-            <p>Esta seção será desenvolvida na FASE 7 do projeto.</p>
-          </div>
-        </section>
+        {/* Experience Section */}
+        <Experience />
 
-        {/* Contato Section */}
-        <section id="contato" className="section">
-          <div className="container">
-            <h2>Contato</h2>
-            <p>Esta seção será desenvolvida na FASE 8 do projeto.</p>
-          </div>
-        </section>
+        {/* Contact Section */}
+        <Contact />
       </main>
     </div>
   );
