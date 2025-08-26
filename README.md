@@ -2,6 +2,12 @@
 
 Portfólio pessoal de desenvolvedor full stack em formação, desenvolvido como projeto de aprendizado e showcasing de habilidades técnicas.
 
+## 📸 Preview
+
+![Portfolio Screenshot](./public/images/portfolio-screenshot.png)
+
+> 💡 **[Ver Online](https://seu-portfolio.vercel.app)** | **[Demo Interativo](#)** 🚀
+
 ## 👨‍💻 Sobre
 
 Sou **Reginaldo Assunção**, profissional com 19 anos de experiência na Vale, formado em múltiplas engenharias e atualmente finalizando pós-graduação em **Análise e Desenvolvimento de Sistemas** pela PUC Minas. Este portfólio representa minha transição para a área de tecnologia, combinando experiência sólida com paixão por inovação.

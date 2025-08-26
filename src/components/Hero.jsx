@@ -191,10 +191,10 @@ const Hero = () => {
           {/* Image Content */}
           <div className={styles.imageContent}>
             <div className={styles.imageWrapper}>
-              {/* Placeholder avatar - substitua pela sua foto profissional */}
+              {/* Foto profissional - Reginaldo Assunção */}
               <img 
-                src="/src/assets/avatar-placeholder.svg"
-                alt="Avatar profissional - Desenvolvedor"
+                src="/images/avatar-reginaldo.jpg"
+                alt="Reginaldo Assunção - Desenvolvedor Full Stack"
                 className={styles.profileImage}
                 loading="lazy"
               />
