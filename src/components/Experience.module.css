@@ -699,13 +699,15 @@
   
   .title {
     font-size: var(--font-size-3xl);
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
   }
   
   .subtitle {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
   }
   
   .stats {
@@ -721,12 +723,29 @@
   }
   
   /* Garantir que elementos críticos sejam visíveis no mobile */
+  .stat,
   .statCard,
+  .tab,
   .tabButton,
   .timelineItem,
-  .experienceCard {
-    opacity: 1;
-    transform: translateY(0);
+  .experienceCard,
+  .certificationCard,
+  .educationCard {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
+  }
+  
+  /* Forçar visibilidade de stats sem necessidade da classe .visible */
+  .stats .stat {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  
+  /* Forçar visibilidade de tabs */
+  .tabs .tab {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
   }
   
   .itemTitle {

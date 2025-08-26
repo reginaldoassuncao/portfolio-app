@@ -778,13 +778,15 @@
   
   .title {
     font-size: var(--font-size-3xl);
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
   }
   
   .subtitle {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
   }
   
   .filters {
@@ -807,8 +809,9 @@
   /* Garantir que elementos críticos sejam visíveis no mobile */
   .projectCard,
   .filterButton {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
   }
   
   .modalHeaderContent {
