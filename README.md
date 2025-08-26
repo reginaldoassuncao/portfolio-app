@@ -2,6 +2,12 @@
 
 Portfólio pessoal de desenvolvedor full stack em formação, desenvolvido como projeto de aprendizado e showcasing de habilidades técnicas.
 
+## 📸 Preview
+
+![Portfolio Screenshot](./public/images/portfolio-screenshot-clean.png)
+
+> 💡 **[Ver Online](https://seu-portfolio.vercel.app)** | **[Demo Interativo](#)** 🚀
+
 ## 👨‍💻 Sobre
 
 Sou **Reginaldo Assunção**, profissional com 19 anos de experiência na Vale, formado em múltiplas engenharias e atualmente finalizando pós-graduação em **Análise e Desenvolvimento de Sistemas** pela PUC Minas. Este portfólio representa minha transição para a área de tecnologia, combinando experiência sólida com paixão por inovação.
@@ -26,6 +32,17 @@ Sou **Reginaldo Assunção**, profissional com 19 anos de experiência na Vale, 
 - **Vercel/Netlify** ready
 - Build otimizado para produção
 - Configurações de cache
+
+## 🤖 Desenvolvido com IA
+
+Este projeto foi desenvolvido com auxílio do **Claude Code**, demonstrando a integração de ferramentas modernas de IA no processo de desenvolvimento. A IA foi utilizada como ferramenta de:
+
+- ✅ **Planejamento estruturado** - Organização em fases
+- ✅ **Otimização de código** - Melhores práticas
+- ✅ **Aceleração do aprendizado** - Conceitos avançados
+- ✅ **Produtividade** - Desenvolvimento eficiente
+
+> **Nota**: Todo o código foi analisado, compreendido e pode ser explicado detalhadamente. A IA foi uma ferramenta de apoio, não substituição do conhecimento técnico.
 
 ## 📁 Estrutura do Projeto
 
@@ -130,9 +147,11 @@ npm run preview
 ## 📞 Contato
 
 - **Email**: regi.assuncao@hotmail.com
-- **LinkedIn**: [linkedin.com/in/reginaldoassuncao](https://linkedin.com/in/reginaldoassuncao)
+- **LinkedIn**: [linkedin.com/in/reginaldoassuncao](https://www.linkedin.com/in/reginaldoassuncao/)
 - **GitHub**: [github.com/reginaldoassuncao](https://github.com/reginaldoassuncao)
-- **Localização**: Conselheiro Lafaiete, Minas Gerais, Brasil
+- **Twitter**: [x.com/Regisassuncao9](https://x.com/Regisassuncao9)
+- **Instagram**: [instagram.com/regis_assuncao](https://www.instagram.com/regis_assuncao/)
+- **Localização**: Conselheiro Lafaiete, MG, Brasil
 
 ## 📄 Licença
 
