@@ -132,41 +132,44 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Aplicação de Estudos React',
-      subtitle: 'Projeto prático de aprendizado',
-      description: 'Aplicação desenvolvida durante os estudos para consolidar conceitos fundamentais do React.',
+      title: 'Dashboard Analytics',
+      subtitle: 'Painel de métricas e visualizações',
+      description: 'Dashboard profissional de e-commerce com KPIs animados, gráficos interativos e visualizações de dados em tempo real.',
       detailedDescription: `
-        Projeto focado no aprendizado prático dos conceitos fundamentais do React. 
-        Inclui gerenciamento de estado, componentes funcionais, hooks e integração com APIs.
+        Dashboard completo simulando dados de uma plataforma de e-commerce com métricas abrangentes.
+        Desenvolvido com foco em UX/UI avançada e visualizações impressionantes.
         
-        Desenvolvido como parte do processo de aprendizado, demonstrando evolução técnica 
-        e capacidade de aplicar teoria na prática.
+        Demonstra habilidades em manipulação de dados, criação de componentes complexos e 
+        implementação de interfaces que impressionam pela qualidade visual e funcionalidade.
       `,
-      category: 'learning',
-      technologies: ['React', 'JavaScript', 'HTML5', 'CSS3'],
-      status: 'in-progress',
-      image: '/api/placeholder/600/400',
-      liveUrl: '#',
-      githubUrl: '#',
+      category: 'web',
+      technologies: ['React', 'Chart.js', 'CSS Modules', 'Vite'],
+      status: 'completed',
+      image: '/images/dashboard-analytics.png',
+      liveUrl: 'https://dashboard-analytics-reginaldo.vercel.app/',
+      githubUrl: 'https://github.com/reginaldoassuncao/dashboard-analytics',
       features: [
-        'Componentes funcionais com hooks',
-        'Gerenciamento de estado local',
-        'Consumo de APIs',
-        'Formulários controlados'
+        'KPIs animados com comparações',
+        '8+ tipos de gráficos interativos',
+        'Filtros de data dinâmicos',
+        'Tabela com busca e paginação',
+        'Dark/Light theme toggle',
+        '100% responsivo'
       ],
       challenges: [
-        'Entendimento profundo dos hooks',
-        'Gerenciamento de estado complexo',
-        'Debugging e troubleshooting'
+        'Integração com Chart.js',
+        'Performance com grandes datasets',
+        'Animações fluidas e profissionais',
+        'Design system consistente'
       ],
       learned: [
-        'Ciclo de vida dos componentes',
-        'Context API',
-        'Custom hooks',
-        'Padrões de design em React'
+        'Bibliotecas de visualização de dados',
+        'Padrões avançados de React',
+        'Otimização de performance',
+        'UX/UI para dashboards profissionais'
       ],
-      date: '2024-07',
-      duration: '3 semanas'
+      date: '2024-08',
+      duration: '4 semanas'
     },
     {
       id: 3,
