@@ -97,6 +97,20 @@
   transform: translateY(20px);
 }
 
+/* Fallback para mobile: mostra cards mesmo sem animação */
+@media (max-width: 768px) {
+  .infoCard {
+    opacity: 1;
+    transform: translateY(0);
+    transition: none;
+  }
+  
+  .about:not(.visible) .infoCard {
+    opacity: 0.8;
+    animation: fadeInUp 0.8s ease-out 0.5s both;
+  }
+}
+
 .visible .infoCard {
   animation: fadeInUp 0.6s ease-out both;
 }
@@ -783,6 +797,13 @@
   
   .title {
     font-size: var(--font-size-3xl);
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .subtitle {
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .personalInfo {
@@ -809,6 +830,17 @@
   
   .ctaContent {
     padding: var(--spacing-xl);
+  }
+  
+  /* Garantir que elementos críticos sejam visíveis no mobile */
+  .journeyCard {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .timelineItem {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

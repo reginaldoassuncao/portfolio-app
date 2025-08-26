@@ -3,7 +3,12 @@
     "allow": [
       "Bash(npm run build:*)",
       "Read(/C:\\Users\\regia\\Pictures\\Screenshots/**)",
-      "Read(/C:\\Users\\regia\\Downloads/**)"
+      "Read(/C:\\Users\\regia\\Downloads/**)",
+      "Bash(npm run dev:*)",
+      "Read(/C:\\Users\\regia\\Pictures\\Screenshots/**)",
+      "Read(/C:\\Users\\regia\\Pictures\\Screenshots/**)",
+      "Read(/C:\\Users\\regia\\Pictures\\Screenshots/**)",
+      "Read(/C:\\Users\\regia\\Pictures\\Screenshots/**)"
     ],
     "deny": [],
     "ask": []

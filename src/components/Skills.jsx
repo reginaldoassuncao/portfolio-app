@@ -35,15 +35,32 @@ const Skills = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 }
+      { 
+        threshold: 0.1,
+        rootMargin: '50px 0px -50px 0px'
+      }
     );
 
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
 
-    return () => observer.disconnect();
-  }, []);
+    // Fallback para mobile: força visibilidade após 1 segundo se não foi ativado
+    const fallbackTimer = setTimeout(() => {
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
+        const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
+        if (isInViewport && !isVisible) {
+          setIsVisible(true);
+        }
+      }
+    }, 1000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimer);
+    };
+  }, [isVisible]);
 
   const skillCategories = [
     {

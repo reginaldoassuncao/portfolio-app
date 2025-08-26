@@ -705,6 +705,13 @@
   
   .title {
     font-size: var(--font-size-3xl);
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .subtitle {
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .categoryNav {
@@ -729,6 +736,14 @@
   
   .summaryText {
     font-size: var(--font-size-base);
+  }
+  
+  /* Garantir que elementos críticos sejam visíveis no mobile */
+  .skillCard,
+  .learningCard,
+  .categoryButton {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

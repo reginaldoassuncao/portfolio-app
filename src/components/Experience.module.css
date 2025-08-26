@@ -699,6 +699,13 @@
   
   .title {
     font-size: var(--font-size-3xl);
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .subtitle {
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .stats {
@@ -711,6 +718,15 @@
   
   .timelineContent {
     padding: var(--spacing-lg);
+  }
+  
+  /* Garantir que elementos críticos sejam visíveis no mobile */
+  .statCard,
+  .tabButton,
+  .timelineItem,
+  .experienceCard {
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .itemTitle {
