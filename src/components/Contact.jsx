@@ -74,21 +74,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'reginaldo.assuncao@email.com',
-      href: 'mailto:reginaldo.assuncao@email.com',
+      value: 'regi.assuncao@hotmail.com',
+      href: 'mailto:regi.assuncao@hotmail.com',
       description: 'Melhor forma de entrar em contato'
     },
     {
       icon: Phone,
       label: 'WhatsApp',
-      value: '+55 (31) 99999-9999',
-      href: 'https://wa.me/5531999999999',
+      value: '+55 (31) 98662-8666',
+      href: 'https://wa.me/5531986628666',
       description: 'Disponível para conversas rápidas'
     },
     {
       icon: MapPin,
       label: 'Localização',
-      value: 'Minas Gerais, Brasil',
+      value: 'Conselheiro Lafaiete, MG',
       href: null,
       description: 'Disponível para trabalho remoto'
     },
@@ -105,28 +105,28 @@ const Contact = () => {
     {
       platform: 'GitHub',
       icon: Github,
-      url: 'https://github.com/reginaldo-assuncao',
+      url: 'https://github.com/reginaldoassuncao',
       color: '#333',
       description: 'Confira meus projetos e código'
     },
     {
       platform: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/reginaldo-assuncao',
+      url: 'https://www.linkedin.com/in/reginaldoassuncao/',
       color: '#0077b5',
       description: 'Vamos nos conectar profissionalmente'
     },
     {
       platform: 'Twitter',
       icon: Twitter,
-      url: 'https://twitter.com/reginaldo_dev',
+      url: 'https://x.com/Regisassuncao9',
       color: '#1da1f2',
       description: 'Siga minha jornada em tech'
     },
     {
       platform: 'Instagram',
       icon: Instagram,
-      url: 'https://instagram.com/reginaldo.dev',
+      url: 'https://www.instagram.com/regis_assuncao/',
       color: '#e4405f',
       description: 'Bastidores e dia a dia'
     }

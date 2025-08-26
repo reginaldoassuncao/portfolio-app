@@ -106,7 +106,7 @@ const Projects = () => {
       category: 'web',
       technologies: ['React', 'CSS Modules', 'Vite', 'Lucide Icons'],
       status: 'completed',
-      image: '/images/portfolio-screenshot.png',
+      image: '/images/portfolio-screenshot-clean.png',
       liveUrl: window.location.origin,
       githubUrl: 'https://github.com/reginaldoassuncao/portfolio-app',
       features: [

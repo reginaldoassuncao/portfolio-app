@@ -89,25 +89,25 @@ const Hero = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/seu-usuario',
+      href: 'https://github.com/reginaldoassuncao',
       label: 'GitHub',
       color: '#333'
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/seu-perfil',
+      href: 'https://www.linkedin.com/in/reginaldoassuncao/',
       label: 'LinkedIn',
       color: '#0077b5'
     },
     {
       icon: Twitter,
-      href: 'https://twitter.com/seu-usuario',
+      href: 'https://x.com/Regisassuncao9',
       label: 'Twitter',
       color: '#1da1f2'
     },
     {
       icon: Mail,
-      href: 'mailto:seu.email@example.com',
+      href: 'mailto:regi.assuncao@hotmail.com',
       label: 'Email',
       color: '#ea4335'
     }

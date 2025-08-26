@@ -4,7 +4,7 @@ Portfólio pessoal de desenvolvedor full stack em formação, desenvolvido como 
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./public/images/portfolio-screenshot.png)
+![Portfolio Screenshot](./public/images/portfolio-screenshot-clean.png)
 
 > 💡 **[Ver Online](https://seu-portfolio.vercel.app)** | **[Demo Interativo](#)** 🚀
 
@@ -146,10 +146,12 @@ npm run preview
 
 ## 📞 Contato
 
-- **Email**: reginaldo.assuncao@email.com
-- **LinkedIn**: [linkedin.com/in/reginaldo-assuncao](https://linkedin.com/in/reginaldo-assuncao)
-- **GitHub**: [github.com/reginaldo-assuncao](https://github.com/reginaldo-assuncao)
-- **Localização**: Minas Gerais, Brasil
+- **Email**: regi.assuncao@hotmail.com
+- **LinkedIn**: [linkedin.com/in/reginaldoassuncao](https://www.linkedin.com/in/reginaldoassuncao/)
+- **GitHub**: [github.com/reginaldoassuncao](https://github.com/reginaldoassuncao)
+- **Twitter**: [x.com/Regisassuncao9](https://x.com/Regisassuncao9)
+- **Instagram**: [instagram.com/regis_assuncao](https://www.instagram.com/regis_assuncao/)
+- **Localização**: Conselheiro Lafaiete, MG, Brasil
 
 ## 📄 Licença
 
