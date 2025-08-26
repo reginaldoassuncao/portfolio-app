@@ -257,6 +257,7 @@
 
 /* Floating elements around image */
 .floatingElement {
+  display: none; /* Temporariamente escondido para não cobrir a foto */
   position: absolute;
   background: var(--color-bg-primary);
   border: 1px solid var(--color-border-light);
@@ -282,8 +283,8 @@
 }
 
 .floatingElement:nth-child(3) {
-  top: -5%;
-  right: 15%;
+  bottom: 50%;
+  right: -20%;
   animation-delay: 1s;
 }
 
