@@ -130,9 +130,9 @@ npm run preview
 ## 📞 Contato
 
 - **Email**: reginaldo.assuncao@email.com
-- **LinkedIn**: [linkedin.com/in/reginaldo-assuncao](https://linkedin.com/in/reginaldo-assuncao)
-- **GitHub**: [github.com/reginaldo-assuncao](https://github.com/reginaldo-assuncao)
-- **Localização**: Minas Gerais, Brasil
+- **LinkedIn**: [linkedin.com/in/reginaldoassuncao](https://linkedin.com/in/reginaldoassuncao)
+- **GitHub**: [github.com/reginaldoassuncao](https://github.com/reginaldoassuncao)
+- **Localização**: Conselheiro Lafaiete, Minas Gerais, Brasil
 
 ## 📄 Licença
 
