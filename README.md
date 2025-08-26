@@ -27,6 +27,17 @@ Sou **Reginaldo Assunção**, profissional com 19 anos de experiência na Vale, 
 - Build otimizado para produção
 - Configurações de cache
 
+## 🤖 Desenvolvido com IA
+
+Este projeto foi desenvolvido com auxílio do **Claude Code**, demonstrando a integração de ferramentas modernas de IA no processo de desenvolvimento. A IA foi utilizada como ferramenta de:
+
+- ✅ **Planejamento estruturado** - Organização em fases
+- ✅ **Otimização de código** - Melhores práticas
+- ✅ **Aceleração do aprendizado** - Conceitos avançados
+- ✅ **Produtividade** - Desenvolvimento eficiente
+
+> **Nota**: Todo o código foi analisado, compreendido e pode ser explicado detalhadamente. A IA foi uma ferramenta de apoio, não substituição do conhecimento técnico.
+
 ## 📁 Estrutura do Projeto
 
 ```
